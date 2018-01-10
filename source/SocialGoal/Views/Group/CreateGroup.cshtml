@@ -11,12 +11,12 @@
         <table>
             <tr>               
                 <td>
-                    @Html.TextBoxFor(m => m.GroupName, new { @class="span5",id = "InputGroup",style ="display:block;",placeholder = "Group Name" }) @Html.ValidationMessageFor(m => m.GroupName)                
+                    @Html.TextBoxFor(m => m.GroupName, new { @class="span5",id = "InputGroup",style ="display:block;",placeholder = "Team Name" }) @Html.ValidationMessageFor(m => m.GroupName)                
                 </td>                
             </tr>
             <tr>               
                 <td>
-                    @Html.TextAreaFor(m => m.Description, new { @class = "span5", id = "InputGroupDesc", placeholder = "Description for new group", style = "display:block;" }) @Html.ValidationMessageFor(m => m.Description)                
+                    @Html.TextAreaFor(m => m.Description, new { @class = "span5", id = "InputGroupDesc", placeholder = "Description for new Team", style = "display:block;" }) @Html.ValidationMessageFor(m => m.Description)                
                 </td>
                 
             </tr>

@@ -91,7 +91,7 @@
             <div class="span3">
                 <div id="mygoals" class="well">
                     <h5>
-                        MY GOALS</h5>
+                        MY PROJECTS</h5>
                     <div>
                         @{ Html.RenderAction("MyGoals", "Goal"); }
                     </div>
@@ -99,14 +99,14 @@
                 </div>
                 <div id="followedgoals" class="well">
                     <h5 title="user following goals">
-                        FOLLOWED GOALS</h5>
+                        Sponsored Projects</h5>
                     <div>
                         @{ Html.RenderAction("GoalsFollowing", "Goal"); }
                     </div>
                 </div>
                 <div id="mygroup" class="well">
                     <h5>
-                        MY GROUPS</h5>
+                        MY TEAMS</h5>
                     <div id="divCreateGroup" style="display: none">
                     </div>
                     <div>
@@ -116,7 +116,7 @@
                 <div id="followedgroups" class="well">
                     <div>
                         <h5>
-                            FOLLOWED GROUPS</h5>
+                            MENTORED PROJECTS</h5>
                         <div>
                             @{ Html.RenderAction("FollowedGroups", "Group"); }
                         </div>
@@ -131,7 +131,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="enableScroll()">
                 ×</button>
             <h5 id="myModalLabel">
-                Create Goal</h5>
+                Create Project</h5>
         </div>
         <div class="modal-body" id="createGoalModal">
         </div>
@@ -146,7 +146,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="enableScroll()">
                 ×</button>
             <h5 id="myModalLabel">
-                Create Group</h5>
+                Create Team</h5>
         </div>
         <div class="modal-body" id="createGroup">
         </div>
@@ -161,7 +161,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="enableScroll()">
                 ×</button>
             <h5 id="myModalLabel">
-                Followers</h5>
+                Sponsor</h5>
         </div>
         <div class="modal-body" id="followedUsers">
         </div>
@@ -176,7 +176,7 @@
             <button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="enableScroll()">
                 ×</button>
             <h5 id="myModalLabel">
-                Followings</h5>
+                Mentors</h5>
         </div>
         <div class="modal-body" id="followingUsers">
         </div>

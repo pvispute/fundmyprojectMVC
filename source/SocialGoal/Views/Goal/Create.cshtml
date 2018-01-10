@@ -17,7 +17,7 @@
                 <tr>
                 
                     <td>
-                        @Html.TextBoxFor(model => model.GoalName, new { @class = "span3", style = "display:block;width:270px;;float:left", placeholder = "Enter the goal name" })<br>
+                        @Html.TextBoxFor(model => model.GoalName, new { @class = "span3", style = "display:block;width:270px;;float:left", placeholder = "Enter the project name" })<br>
                         @Html.ValidationMessageFor(model => model.GoalName)
                     </td>
                 </tr>
@@ -54,12 +54,12 @@
                   
                     <td>
                         @Html.TextBoxFor(model => model.Target, new { @class = "span3", id = "Target",  placeholder = "Enter the target to be achieved", style = "width: 270px;" })
-                        <a href="#"  id="targetinfo" rel ="popover" data-content= "Fix the target of the goal based on metric selected" data-trigger ="hover" data-placement="top" data-originals-title ="Target"><i class="icon-info-sign"></i> </a>
+                        <a href="#"  id="targetinfo" rel ="popover" data-content= "Fix the target of the project based on metric selected" data-trigger ="hover" data-placement="top" data-originals-title ="Target"><i class="icon-info-sign"></i> </a>
                       <div id="NumberValidation"></div>
                     </td>
                 </tr>
                 <tr>
-                    <td>@Html.CheckBoxFor(model => model.GoalType, true)&nbsp;&nbsp;Make this goal as private</td>
+                    <td>@Html.CheckBoxFor(model => model.GoalType, true)&nbsp;&nbsp;Make this project as private</td>
                 </tr>
                 <tr><td height="20"></td></tr>
                 <tr>

@@ -4,7 +4,7 @@
     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span
         class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
     </a>
-    <a class="brand" href='@Url.Action("Index", "Home")'>Social Goal</a>
+    <a class="brand" href='@Url.Action("Index", "Home")'>Fund My Project</a>
     <div class="btn-group pull-right">
         <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"><i class="icon-user">
         </i>
@@ -34,24 +34,24 @@
     }
                 }
             </a></li>
-            @*<li><a href="/Goal/ListOfGoals">Goals</a></li>*@
-            <li><a href="/Goal/GoalList">Goals</a></li>
-            @*<li><a href="/Group/ListOfGroups">Groups</a></li>*@
-            <li><a href="/Group/GroupList">Groups</a></li>
+            @*<li><a href="/Goal/ListOfGoals">Projects</a></li>*@
+            <li><a href="/Goal/GoalList">Projects</a></li>
+            @*<li><a href="/Group/ListOfGroups">Teams</a></li>*@
+            <li><a href="/Group/GroupList">Teams</a></li>
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">People
                 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li class=""><a href="/Account/Followers">Followers</a></li>@*onclick="GetFollowers();"*@
-                    <li class=""><a href="/Account/Followings">Following</a> </li>
+                    <li class=""><a href="/Account/Followers">Mentors</a></li>@*onclick="GetFollowers();"*@
+                    <li class=""><a href="/Account/Followings">Sponsors</a> </li>
                 </ul>
             </li>
             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Create
                 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
                     <li class=""><a data-toggle="modal" href="#creategoal" onclick="CreateGoal();">Create
-                        Goal</a></li>
+                        Project</a></li>
                     <li class=""><a data-toggle="modal" href="#creategroup" onclick="CreateGroup();">Create
-                        Group</a> </li>
+                        Team</a> </li>
                 </ul>
             </li>
             <li>
